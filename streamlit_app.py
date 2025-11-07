@@ -91,7 +91,7 @@ def ask_agent(agent_executor, question: str):
 # --------------------------------------------------------------------
 def main():
     st.set_page_config(page_title="기술보증기금 AI 비서", layout="wide", page_icon="🤖")
-    st.image('data/im.jpg', width=800)
+    st.image('data/im.jpg', width=400)
     st.markdown('---')
     st.title("안녕하세요! \n RAG + Web을 활용한 'AI비서' 입니다. 특별히 원하는 정보가 있다면 PDF 파일을 올려주세요!")  
 
